@@ -1,0 +1,5 @@
+links_example.local_action:
+  route_name: 'links_example.local_action'
+  title: 'Example local action'
+  appears_on:
+    - links_example.admin_menu_tab_1

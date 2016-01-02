@@ -1,0 +1,14 @@
+links_example.admin_menu_tab_1:
+  route_name: links_example.admin_menu_tab_1
+  title: 'Tab 1'
+  base_route: links_example.admin_menu_tab_1
+links_example.admin_menu_tab_2:
+  route_name: links_example.admin_menu_tab_2
+  title: 'Tab 2'
+  base_route: links_example.admin_menu_tab_1
+  weight: 100
+links_example.admin_menu_tab_3:
+  route_name: links_example.admin_menu_tab_3
+  title: 'Tab 3'
+  base_route: links_example.admin_menu_tab_1
+  weight: 150

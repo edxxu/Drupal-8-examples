@@ -1,0 +1,28 @@
+links_example.admin_menu_tab_1:
+  path: '/admin/structure/example-tab-1'
+  defaults:
+    _controller: '\Drupal\links_example\Controller\Tab1::content'
+    _title: 'Example Tab 1'
+  requirements:
+    _permission: 'administer site configuration'
+links_example.admin_menu_tab_2:
+  path: '/admin/structure/example-tab-2'
+  defaults:
+    _controller: '\Drupal\links_example\Controller\Tab2::content'
+    _title: 'Example Tab 2'
+  requirements:
+    _permission: 'administer site configuration'
+links_example.admin_menu_tab_3:
+  path: '/admin/structure/example-tab-3'
+  defaults:
+    _controller: '\Drupal\links_example\Controller\Tab3::content'
+    _title: 'Example Tab 3'
+  requirements:
+    _permission: 'administer site configuration'
+links_example.local_action:
+  path: '/admin/structure/example-local-action'
+  defaults:
+    _controller: '\Drupal\links_example\Controller\LocalAction::content'
+    _title: 'Example Local action'
+  requirements:
+    _permission: 'administer site configuration'

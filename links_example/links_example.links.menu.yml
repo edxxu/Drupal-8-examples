@@ -1,0 +1,5 @@
+links_example.tab1:
+  title: Example tab 1
+  description: 'Example tab 1'
+  parent: system.admin_structure
+  route_name: links_example.admin_menu_tab_1

@@ -1,0 +1,5 @@
+name: Theme suggestion demo
+description: 添加自定义theme suggestion
+type: module
+package: custom
+core: 8.x
